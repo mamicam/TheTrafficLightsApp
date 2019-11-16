@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: pl.michal_m.maven.TrafficLightsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in pl.michal_m.maven.TrafficLightsTest
+tryStartRun  Time elapsed: 0.009 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [pl.michal_m.maven.TrafficLightColors arg0] in constructor [pl.michal_m.maven.TrafficLightsTest(pl.michal_m.maven.TrafficLightColors)].
+
+tryChangeLightColor  Time elapsed: 0 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [pl.michal_m.maven.TrafficLightColors arg0] in constructor [pl.michal_m.maven.TrafficLightsTest(pl.michal_m.maven.TrafficLightColors)].
+
+waitingForLightChanging  Time elapsed: 0.001 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [pl.michal_m.maven.TrafficLightColors arg0] in constructor [pl.michal_m.maven.TrafficLightsTest(pl.michal_m.maven.TrafficLightColors)].
+

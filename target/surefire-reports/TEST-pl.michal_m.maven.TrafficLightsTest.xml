@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pl.michal_m.maven.TrafficLightsTest" time="0.016" tests="3" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="D:\Java - nauka\TrafficLightsApp\target\test-classes;D:\Java - nauka\TrafficLightsApp\target\classes;C:\Users\micha\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\micha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\micha\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\micha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\micha\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\micha\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\micha\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\micha\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\micha\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\micha\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\micha\AppData\Local\Temp\surefire10869200156380545015\surefirebooter7537877910570620949.jar C:\Users\micha\AppData\Local\Temp\surefire10869200156380545015 2019-11-16T18-22-22_020-jvmRun1 surefire4562512134673278308tmp surefire_010526061283196327287tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Java - nauka\TrafficLightsApp\target\test-classes;D:\Java - nauka\TrafficLightsApp\target\classes;C:\Users\micha\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\micha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\micha\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\micha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\micha\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\micha\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\micha\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\micha\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\micha\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\micha\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\micha"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Java - nauka\TrafficLightsApp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="idea.version2019.2.4" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\micha\AppData\Local\Temp\surefire10869200156380545015\surefirebooter7537877910570620949.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="Michał"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\micha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\micha\AppData\Local\Temp\"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="D:\Java - nauka\TrafficLightsApp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\Java\jre-10.0.1;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\gradle-5.6.1\bin;C:\Program Files (x86)\VSCodeSetup\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Maven\apache-maven-3.6.2\bin;C:\Users\micha\AppData\Local\GitHubDesktop\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="tryStartRun" classname="pl.michal_m.maven.TrafficLightsTest" time="0.009">
+    <error message="No ParameterResolver registered for parameter [pl.michal_m.maven.TrafficLightColors arg0] in constructor [pl.michal_m.maven.TrafficLightsTest(pl.michal_m.maven.TrafficLightColors)]." type="org.junit.jupiter.api.extension.ParameterResolutionException">org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [pl.michal_m.maven.TrafficLightColors arg0] in constructor [pl.michal_m.maven.TrafficLightsTest(pl.michal_m.maven.TrafficLightColors)].
+</error>
+  </testcase>
+  <testcase name="tryChangeLightColor" classname="pl.michal_m.maven.TrafficLightsTest" time="0">
+    <error message="No ParameterResolver registered for parameter [pl.michal_m.maven.TrafficLightColors arg0] in constructor [pl.michal_m.maven.TrafficLightsTest(pl.michal_m.maven.TrafficLightColors)]." type="org.junit.jupiter.api.extension.ParameterResolutionException">org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [pl.michal_m.maven.TrafficLightColors arg0] in constructor [pl.michal_m.maven.TrafficLightsTest(pl.michal_m.maven.TrafficLightColors)].
+</error>
+  </testcase>
+  <testcase name="waitingForLightChanging" classname="pl.michal_m.maven.TrafficLightsTest" time="0.001">
+    <error message="No ParameterResolver registered for parameter [pl.michal_m.maven.TrafficLightColors arg0] in constructor [pl.michal_m.maven.TrafficLightsTest(pl.michal_m.maven.TrafficLightColors)]." type="org.junit.jupiter.api.extension.ParameterResolutionException">org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [pl.michal_m.maven.TrafficLightColors arg0] in constructor [pl.michal_m.maven.TrafficLightsTest(pl.michal_m.maven.TrafficLightColors)].
+</error>
+  </testcase>
+</testsuite>
