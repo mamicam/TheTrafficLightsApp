@@ -8,11 +8,11 @@ public class TrafficLightApp
 {
     public static void main( String[] args )
     {
-        TrafficLights trafficLights = new TrafficLights(TrafficLightColors.RED);
-        Thread thread = new Thread();
+        TrafficLights trafficLights = new TrafficLights(TrafficLightColors.GREEN);
+        Thread thread = new Thread(trafficLights);
         thread.start();
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 9; i++) {
             System.out.println(trafficLights.getTrafficLightColors());
             trafficLights.waitingForLightChanging();
         }

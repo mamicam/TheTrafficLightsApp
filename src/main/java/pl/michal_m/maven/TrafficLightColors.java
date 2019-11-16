@@ -1,7 +1,9 @@
 package pl.michal_m.maven;
 
 public enum TrafficLightColors {
-    GREEN(1000), YELLOW(500), RED(1100);
+    GREEN(10000),
+    YELLOW(1000),
+    RED(11000);
 
     private int timeOfLighting;
 
@@ -9,7 +11,7 @@ public enum TrafficLightColors {
         this.timeOfLighting = timeOfLighting;
     }
 
-    public int getTimeOfLighting() {
+    public int getDelaying() {
         return timeOfLighting;
     }
 }

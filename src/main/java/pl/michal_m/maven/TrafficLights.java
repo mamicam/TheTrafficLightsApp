@@ -1,5 +1,7 @@
 package pl.michal_m.maven;
 
+import javax.swing.table.TableRowSorter;
+
 public class TrafficLights implements Runnable {
     private TrafficLightColors trafficLightColors;
     private boolean stopApp = false;
@@ -13,7 +15,7 @@ public class TrafficLights implements Runnable {
     public void run() {
         while (!stopApp) {
             try {
-                Thread.sleep(trafficLightColors.getTimeOfLighting());
+                Thread.sleep(trafficLightColors.getDelaying());
             } catch (InterruptedException exc) {
                 System.out.println(exc);
             }
@@ -24,7 +26,7 @@ public class TrafficLights implements Runnable {
     synchronized void changeLightColor() {
         switch (trafficLightColors) {
             case RED:
-                trafficLightColors = TrafficLightColors.GREEN;
+                trafficLightColors = TrafficLightColors.GREEN ;
                 break;
             case YELLOW:
                 trafficLightColors = TrafficLightColors.RED;
